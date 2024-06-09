@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+#scoreboard {
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
